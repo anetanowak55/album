@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Album fotograficzny</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&subset=latin-ext&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div>
+        <p class="eyebrow">Galeria</p>
+        <h1>Album fotograficzny</h1>
+      </div>
+      <p id="album-count" class="album-count"></p>
+    </header>
+
+    <main>
+      <nav class="year-filter" aria-label="Filtr roczników" id="year-filter"></nav>
+      <section class="album-grid" id="album-grid" aria-live="polite"></section>
+    </main>
+
+    <div class="modal" id="album-modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <div class="modal-backdrop" data-close-modal></div>
+      <section class="modal-panel">
+        <header class="modal-header">
+          <div>
+            <h2 id="modal-title"></h2>
+            <p id="modal-date" class="modal-date"></p>
+          </div>
+          <button class="icon-button" type="button" aria-label="Zamknij album" data-close-modal>
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </header>
+
+        <div class="viewer">
+          <button class="viewer-button previous" type="button" aria-label="Poprzednie zdjęcie" id="previous-photo">
+            <span aria-hidden="true">&#8249;</span>
+          </button>
+          <div class="zoom-controls" role="group" aria-label="Powiększenie zdjęcia">
+            <button class="zoom-button" type="button" aria-label="Pomniejsz zdjęcie" id="zoom-out">-</button>
+            <output class="zoom-value" id="zoom-value" aria-live="polite">100%</output>
+            <button class="zoom-button" type="button" aria-label="Powiększ zdjęcie" id="zoom-in">+</button>
+            <button class="zoom-button reset" type="button" aria-label="Resetuj powiększenie" id="zoom-reset">100%</button>
+          </div>
+          <img id="viewer-image" alt="">
+          <button class="viewer-button next" type="button" aria-label="Następne zdjęcie" id="next-photo">
+            <span aria-hidden="true">&#8250;</span>
+          </button>
+        </div>
+
+        <div class="photo-info" id="photo-info" hidden>
+          <p class="photo-date" id="photo-date"></p>
+          <p class="photo-description" id="photo-description"></p>
+        </div>
+
+        <div class="photo-strip" id="photo-strip" aria-label="Zdjęcia w albumie"></div>
+      </section>
+    </div>
+
+    <template id="album-card-template">
+      <button class="album-card" type="button">
+        <span class="album-thumbnail-wrap">
+          <img class="album-thumbnail" alt="">
+        </span>
+        <span class="album-details">
+          <span class="album-title"></span>
+          <span class="album-date"></span>
+        </span>
+      </button>
+    </template>
+
+    <script>
+      const albumGrid = document.querySelector('#album-grid');
+      const yearFilter = document.querySelector('#year-filter');
+      const albumCount = document.querySelector('#album-count');
+      const cardTemplate = document.querySelector('#album-card-template');
+      const modal = document.querySelector('#album-modal');
+      const modalTitle = document.querySelector('#modal-title');
+      const modalDate = document.querySelector('#modal-date');
+      const viewer = document.querySelector('.viewer');
+      const viewerImage = document.querySelector('#viewer-image');
+      const photoInfo = document.querySelector('#photo-info');
+      const photoDate = document.querySelector('#photo-date');
+      const photoDescription = document.querySelector('#photo-description');
+      const photoStrip = document.querySelector('#photo-strip');
+      const previousPhoto = document.querySelector('#previous-photo');
+      const nextPhoto = document.querySelector('#next-photo');
+      const zoomOut = document.querySelector('#zoom-out');
+      const zoomIn = document.querySelector('#zoom-in');
+      const zoomReset = document.querySelector('#zoom-reset');
+      const zoomValue = document.querySelector('#zoom-value');
+
+      let albums = [];
+      let activeYear = 'all';
+      let activeAlbum = null;
+      let activePhotoIndex = 0;
+      let lastFocusedElement = null;
+      let zoomLevel = 1;
+
+      const dateFormatter = new Intl.DateTimeFormat('pl-PL', {
+        day: 'numeric',
+        month: 'long',
+        year: 'numeric',
+      });
+
+      function formatDate(dateValue) {
+        if (!dateValue) {
+          return '';
+        }
+
+        const polishDate = String(dateValue).match(/^(\d{1,2})\.(\d{1,2})\.(\d{4})$/);
+        const date = polishDate
+          ? new Date(Number(polishDate[3]), Number(polishDate[2]) - 1, Number(polishDate[1]))
+          : new Date(`${dateValue}T00:00:00`);
+
+        if (Number.isNaN(date.getTime())) {
+          return dateValue;
+        }
+
+        return dateFormatter.format(date);
+      }
+
+      function normalizePhoto(photo) {
+        return typeof photo === 'string'
+          ? { src: photo, date: null, description: '' }
+          : {
+              src: photo.src,
+              date: photo.date || null,
+              description: photo.description || '',
+            };
+      }
+
+      function getAlbumPhotos(album) {
+        return (album.images || []).map(normalizePhoto).filter((photo) => photo.src);
+      }
+
+      function updateZoom(nextZoom) {
+        zoomLevel = Math.min(3, Math.max(1, nextZoom));
+        viewerImage.style.transform = `scale(${zoomLevel})`;
+        viewerImage.classList.toggle('is-zoomed', zoomLevel > 1);
+        zoomValue.textContent = `${Math.round(zoomLevel * 100)}%`;
+        zoomOut.disabled = zoomLevel <= 1;
+        zoomReset.disabled = zoomLevel <= 1;
+      }
+
+      function resetZoom() {
+        updateZoom(1);
+      }
+
+      function polishPlural(count, one, few, many) {
+        const lastDigit = count % 10;
+        const lastTwoDigits = count % 100;
+
+        if (count === 1) {
+          return one;
+        }
+
+        if (lastDigit >= 2 && lastDigit <= 4 && (lastTwoDigits < 12 || lastTwoDigits > 14)) {
+          return few;
+        }
+
+        return many;
+      }
+
+      function renderYearFilter() {
+        const years = [...new Set(albums.map((album) => album.year))].sort((a, b) => b - a);
+        yearFilter.replaceChildren();
+
+        ['all', ...years].forEach((year) => {
+          const button = document.createElement('button');
+          button.type = 'button';
+          button.className = 'year-button';
+          button.textContent = year === 'all' ? 'Wszystkie' : year;
+          button.dataset.year = year;
+          button.setAttribute('aria-pressed', String(year === activeYear));
+          button.addEventListener('click', () => {
+            activeYear = year;
+            renderYearFilter();
+            renderAlbums();
+          });
+          yearFilter.append(button);
+        });
+      }
+
+      function getFilteredAlbums() {
+        return activeYear === 'all'
+          ? albums
+          : albums.filter((album) => album.year === Number(activeYear));
+      }
+
+      function renderAlbums() {
+        const filteredAlbums = getFilteredAlbums();
+        albumGrid.replaceChildren();
+        albumCount.textContent = `${filteredAlbums.length} ${polishPlural(filteredAlbums.length, 'album', 'albumy', 'albumów')}`;
+
+        filteredAlbums.forEach((album) => {
+          const card = cardTemplate.content.firstElementChild.cloneNode(true);
+          const image = card.querySelector('.album-thumbnail');
+          const title = card.querySelector('.album-title');
+          const date = card.querySelector('.album-date');
+
+          image.src = album.thumbnail || '';
+          image.alt = album.thumbnail ? `Okładka albumu ${album.name}` : '';
+          title.textContent = album.name;
+          date.textContent = formatDate(album.date);
+          card.addEventListener('click', () => openAlbum(album));
+
+          albumGrid.append(card);
+        });
+      }
+
+      function openAlbum(album) {
+        if (!getAlbumPhotos(album).length) {
+          return;
+        }
+
+        activeAlbum = album;
+        activePhotoIndex = 0;
+        lastFocusedElement = document.activeElement;
+        modalTitle.textContent = album.name;
+        const photoCount = getAlbumPhotos(album).length;
+        modalDate.textContent = `${formatDate(album.date)} · ${photoCount} ${polishPlural(photoCount, 'zdjęcie', 'zdjęcia', 'zdjęć')}`;
+        renderPhotoStrip();
+        showPhoto(0);
+        modal.classList.add('is-open');
+        modal.setAttribute('aria-hidden', 'false');
+        document.body.classList.add('modal-open');
+        modal.querySelector('[data-close-modal]').focus();
+      }
+
+      function closeAlbum() {
+        modal.classList.remove('is-open');
+        modal.setAttribute('aria-hidden', 'true');
+        document.body.classList.remove('modal-open');
+        activeAlbum = null;
+        resetZoom();
+
+        if (lastFocusedElement) {
+          lastFocusedElement.focus();
+        }
+      }
+
+      function showPhoto(index) {
+        if (!activeAlbum) {
+          return;
+        }
+
+        const photos = getAlbumPhotos(activeAlbum);
+        const photoCount = photos.length;
+        activePhotoIndex = (index + photoCount) % photoCount;
+        const photo = photos[activePhotoIndex];
+        resetZoom();
+        viewerImage.src = photo.src;
+        viewerImage.alt = `${activeAlbum.name}, zdjęcie ${activePhotoIndex + 1} z ${photoCount}`;
+        photoDate.textContent = formatDate(photo.date);
+        photoDescription.textContent = photo.description;
+        photoInfo.hidden = !photo.date && !photo.description;
+
+        [...photoStrip.children].forEach((button, buttonIndex) => {
+          button.classList.toggle('is-active', buttonIndex === activePhotoIndex);
+          button.setAttribute('aria-current', buttonIndex === activePhotoIndex ? 'true' : 'false');
+        });
+      }
+
+      function renderPhotoStrip() {
+        photoStrip.replaceChildren();
+
+        getAlbumPhotos(activeAlbum).forEach((photo, index) => {
+          const button = document.createElement('button');
+          const image = document.createElement('img');
+
+          button.type = 'button';
+          button.className = 'photo-thumb';
+          button.setAttribute('aria-label', `Pokaż zdjęcie ${index + 1}`);
+          button.addEventListener('click', () => showPhoto(index));
+
+          image.src = photo.src;
+          image.alt = '';
+          button.append(image);
+          photoStrip.append(button);
+        });
+      }
+
+      function showPreviousPhoto() {
+        showPhoto(activePhotoIndex - 1);
+      }
+
+      function showNextPhoto() {
+        showPhoto(activePhotoIndex + 1);
+      }
+
+      document.querySelectorAll('[data-close-modal]').forEach((element) => {
+        element.addEventListener('click', closeAlbum);
+      });
+
+      previousPhoto.addEventListener('click', showPreviousPhoto);
+      nextPhoto.addEventListener('click', showNextPhoto);
+      zoomOut.addEventListener('click', () => updateZoom(zoomLevel - 0.25));
+      zoomIn.addEventListener('click', () => updateZoom(zoomLevel + 0.25));
+      zoomReset.addEventListener('click', resetZoom);
+      viewerImage.addEventListener('dblclick', resetZoom);
+      viewer.addEventListener('wheel', (event) => {
+        if (!activeAlbum) {
+          return;
+        }
+
+        event.preventDefault();
+        updateZoom(zoomLevel + (event.deltaY < 0 ? 0.15 : -0.15));
+      }, { passive: false });
+
+      document.addEventListener('keydown', (event) => {
+        if (!activeAlbum) {
+          return;
+        }
+
+        if (event.key === 'Escape') {
+          closeAlbum();
+        }
+
+        if (event.key === 'ArrowLeft') {
+          showPreviousPhoto();
+        }
+
+        if (event.key === 'ArrowRight') {
+          showNextPhoto();
+        }
+
+        if (event.key === '+' || event.key === '=') {
+          updateZoom(zoomLevel + 0.25);
+        }
+
+        if (event.key === '-') {
+          updateZoom(zoomLevel - 0.25);
+        }
+
+        if (event.key === '0') {
+          resetZoom();
+        }
+      });
+
+      resetZoom();
+
+      fetch('./gallery.json')
+        .then((response) => {
+          if (!response.ok) {
+            throw new Error('Nie udało się wczytać gallery.json');
+          }
+
+          return response.json();
+        })
+        .then((data) => {
+          albums = data;
+          renderYearFilter();
+          renderAlbums();
+        })
+        .catch((error) => {
+          albumGrid.innerHTML = `<p class="empty-state">${error.message}</p>`;
+        });
+    </script>
+  </body>
+</html>
