@@ -1,5 +1,334 @@
 [
   {
+    "name": "Ostrava",
+    "year": 2026,
+    "date": "2026-01-03",
+    "folder": "photos/Ostrava%203.01.2026",
+    "thumbnail": "photos/Ostrava%203.01.2026/IMG_2450.HEIC",
+    "images": [
+      {
+        "src": "photos/Ostrava%203.01.2026/IMG_2450.HEIC",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Ostrava%203.01.2026/IMG_2456.HEIC",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Ostrava%203.01.2026/IMG_2474.HEIC",
+        "date": null,
+        "description": ""
+      }
+    ]
+  },
+  {
+    "name": "Morze + Szczecin",
+    "year": 2025,
+    "date": "2025-12-31",
+    "folder": "photos/Morze%20%2B%20Szczecin%202025",
+    "thumbnail": "photos/Morze%20%2B%20Szczecin%202025/IMG_1824.HEIC",
+    "images": [
+      {
+        "src": "photos/Morze%20%2B%20Szczecin%202025/IMG_1824.HEIC",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Morze%20%2B%20Szczecin%202025/IMG_1828.HEIC",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Morze%20%2B%20Szczecin%202025/IMG_1831.HEIC",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Morze%20%2B%20Szczecin%202025/IMG_1832.HEIC",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Morze%20%2B%20Szczecin%202025/IMG_1841.HEIC",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Morze%20%2B%20Szczecin%202025/IMG_1853.HEIC",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Morze%20%2B%20Szczecin%202025/IMG_1857.HEIC",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Morze%20%2B%20Szczecin%202025/IMG_1864.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Morze%20%2B%20Szczecin%202025/IMG_1893.HEIC",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Morze%20%2B%20Szczecin%202025/IMG_1901.HEIC",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Morze%20%2B%20Szczecin%202025/IMG_1902.HEIC",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Morze%20%2B%20Szczecin%202025/IMG_1908.HEIC",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Morze%20%2B%20Szczecin%202025/IMG_1931.HEIC",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Morze%20%2B%20Szczecin%202025/IMG_1937.HEIC",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Morze%20%2B%20Szczecin%202025/IMG_1962.HEIC",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Morze%20%2B%20Szczecin%202025/IMG_1977.HEIC",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Morze%20%2B%20Szczecin%202025/IMG_1990.HEIC",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Morze%20%2B%20Szczecin%202025/IMG_1993.HEIC",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Morze%20%2B%20Szczecin%202025/IMG_1998.HEIC",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Morze%20%2B%20Szczecin%202025/IMG_2007.HEIC",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Morze%20%2B%20Szczecin%202025/IMG_2012.HEIC",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Morze%20%2B%20Szczecin%202025/IMG_2018.HEIC",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Morze%20%2B%20Szczecin%202025/IMG_2024.HEIC",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Morze%20%2B%20Szczecin%202025/IMG_2030.jpg",
+        "date": null,
+        "description": ""
+      }
+    ]
+  },
+  {
+    "name": "Sylwester 2025",
+    "year": 2025,
+    "date": "2025-12-31",
+    "folder": "photos/Sylwester%202025%2031.12.2025",
+    "thumbnail": "photos/Sylwester%202025%2031.12.2025/IMG_2407.HEIC",
+    "images": [
+      {
+        "src": "photos/Sylwester%202025%2031.12.2025/IMG_2407.HEIC",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Sylwester%202025%2031.12.2025/IMG_2412.HEIC",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Sylwester%202025%2031.12.2025/IMG_2423.HEIC",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Sylwester%202025%2031.12.2025/IMG_2424.HEIC",
+        "date": null,
+        "description": ""
+      }
+    ]
+  },
+  {
+    "name": "Karpacz",
+    "year": 2025,
+    "date": "2025-08-16",
+    "folder": "photos/Karpacz%2015-16.08.2025",
+    "thumbnail": "photos/Karpacz%2015-16.08.2025/54967a79-10c7-4b29-a0b5-1d3778a71277.jpg",
+    "images": [
+      {
+        "src": "photos/Karpacz%2015-16.08.2025/54967a79-10c7-4b29-a0b5-1d3778a71277.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Karpacz%2015-16.08.2025/IMG_0739.HEIC",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Karpacz%2015-16.08.2025/IMG_0748.HEIC",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Karpacz%2015-16.08.2025/IMG_0786.HEIC",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Karpacz%2015-16.08.2025/IMG_0797.HEIC",
+        "date": null,
+        "description": ""
+      }
+    ]
+  },
+  {
+    "name": "Przeprowadzka na swoje",
+    "year": 2025,
+    "date": "2025-07-31",
+    "folder": "photos/Przeprowadzka%20na%20swoje%2031.07.2025",
+    "thumbnail": "photos/Przeprowadzka%20na%20swoje%2031.07.2025/171f5d90-32e8-4c73-aed8-0a7a1f10f91c.jpg",
+    "images": [
+      {
+        "src": "photos/Przeprowadzka%20na%20swoje%2031.07.2025/171f5d90-32e8-4c73-aed8-0a7a1f10f91c.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Przeprowadzka%20na%20swoje%2031.07.2025/IMG_0410.HEIC",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Przeprowadzka%20na%20swoje%2031.07.2025/IMG_0471.HEIC",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Przeprowadzka%20na%20swoje%2031.07.2025/IMG_0477.HEIC",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Przeprowadzka%20na%20swoje%2031.07.2025/IMG_0482.HEIC",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Przeprowadzka%20na%20swoje%2031.07.2025/IMG_0493.HEIC",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Przeprowadzka%20na%20swoje%2031.07.2025/IMG_0526.HEIC",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Przeprowadzka%20na%20swoje%2031.07.2025/IMG_0536.HEIC",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Przeprowadzka%20na%20swoje%2031.07.2025/IMG_0562.HEIC",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Przeprowadzka%20na%20swoje%2031.07.2025/IMG_0565.HEIC",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Przeprowadzka%20na%20swoje%2031.07.2025/IMG_0632.HEIC",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Przeprowadzka%20na%20swoje%2031.07.2025/IMG_0825.HEIC",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Przeprowadzka%20na%20swoje%2031.07.2025/IMG_0934.HEIC",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Przeprowadzka%20na%20swoje%2031.07.2025/IMG_1078.HEIC",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Przeprowadzka%20na%20swoje%2031.07.2025/IMG_2235.HEIC",
+        "date": null,
+        "description": ""
+      }
+    ]
+  },
+  {
+    "name": "Koncert Imagine Dragons Warszawa",
+    "year": 2025,
+    "date": "2025-07-19",
+    "folder": "photos/Koncert%20Imagine%20Dragons%20Warszawa%2019.07.2025",
+    "thumbnail": "photos/Koncert%20Imagine%20Dragons%20Warszawa%2019.07.2025/IMG_0234.HEIC",
+    "images": [
+      {
+        "src": "photos/Koncert%20Imagine%20Dragons%20Warszawa%2019.07.2025/IMG_0234.HEIC",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Koncert%20Imagine%20Dragons%20Warszawa%2019.07.2025/IMG_0243.HEIC",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Koncert%20Imagine%20Dragons%20Warszawa%2019.07.2025/IMG_0263.HEIC",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Koncert%20Imagine%20Dragons%20Warszawa%2019.07.2025/IMG_0280.HEIC",
+        "date": null,
+        "description": ""
+      }
+    ]
+  },
+  {
     "name": "Urodziny Mateusza",
     "year": 2025,
     "date": "2025-05-20",
@@ -25,6 +354,947 @@
         "src": "photos/Urodziny%20Mateusza%2020.05.2025/20250520_125648-horz.jpg",
         "date": "20.05.2025",
         "description": "Kopalnia Soli w Wieliczce"
+      }
+    ]
+  },
+  {
+    "name": "Majówka",
+    "year": 2025,
+    "date": "2025-05-04",
+    "folder": "photos/Maj%C3%B3wka%201-4.05.2025",
+    "thumbnail": "photos/Maj%C3%B3wka%201-4.05.2025/20250501_172413.jpg",
+    "images": [
+      {
+        "src": "photos/Maj%C3%B3wka%201-4.05.2025/20250501_172413.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Maj%C3%B3wka%201-4.05.2025/20250501_173911.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Maj%C3%B3wka%201-4.05.2025/20250501_174109.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Maj%C3%B3wka%201-4.05.2025/20250501_194354.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Maj%C3%B3wka%201-4.05.2025/20250502_131450.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Maj%C3%B3wka%201-4.05.2025/20250502_134158.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Maj%C3%B3wka%201-4.05.2025/20250504_115142.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Maj%C3%B3wka%201-4.05.2025/20250504_152604.jpg",
+        "date": null,
+        "description": ""
+      }
+    ]
+  },
+  {
+    "name": "Międzybrodzie Żywieckie",
+    "year": 2025,
+    "date": "2025-02-16",
+    "folder": "photos/Mi%C4%99dzybrodzie%20%C5%BBywieckie%2015-16.02.2025",
+    "thumbnail": "photos/Mi%C4%99dzybrodzie%20%C5%BBywieckie%2015-16.02.2025/20250215_121625.jpg",
+    "images": [
+      {
+        "src": "photos/Mi%C4%99dzybrodzie%20%C5%BBywieckie%2015-16.02.2025/20250215_121625.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Mi%C4%99dzybrodzie%20%C5%BBywieckie%2015-16.02.2025/20250215_132239.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Mi%C4%99dzybrodzie%20%C5%BBywieckie%2015-16.02.2025/20250215_143040.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Mi%C4%99dzybrodzie%20%C5%BBywieckie%2015-16.02.2025/20250215_150138.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Mi%C4%99dzybrodzie%20%C5%BBywieckie%2015-16.02.2025/20250215_152012.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Mi%C4%99dzybrodzie%20%C5%BBywieckie%2015-16.02.2025/20250215_175808.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Mi%C4%99dzybrodzie%20%C5%BBywieckie%2015-16.02.2025/20250216_111425.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Mi%C4%99dzybrodzie%20%C5%BBywieckie%2015-16.02.2025/20250216_113601.jpg",
+        "date": null,
+        "description": ""
+      }
+    ]
+  },
+  {
+    "name": "Koncert Within Temptation Łódź",
+    "year": 2024,
+    "date": "2024-10-25",
+    "folder": "photos/Koncert%20Within%20Temptation%20%C5%81%C3%B3d%C5%BA%2025.10.2024",
+    "thumbnail": "photos/Koncert%20Within%20Temptation%20%C5%81%C3%B3d%C5%BA%2025.10.2024/20241025_204231.jpg",
+    "images": [
+      {
+        "src": "photos/Koncert%20Within%20Temptation%20%C5%81%C3%B3d%C5%BA%2025.10.2024/20241025_204231.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Koncert%20Within%20Temptation%20%C5%81%C3%B3d%C5%BA%2025.10.2024/20241025_220356.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Koncert%20Within%20Temptation%20%C5%81%C3%B3d%C5%BA%2025.10.2024/20241025_223551.jpg",
+        "date": null,
+        "description": ""
+      }
+    ]
+  },
+  {
+    "name": "Gdańsk + Malbork",
+    "year": 2024,
+    "date": "2024-10-08",
+    "folder": "photos/Gda%C5%84sk%20%2B%20Malbork%205-8.10.2024",
+    "thumbnail": "photos/Gda%C5%84sk%20%2B%20Malbork%205-8.10.2024/20241005_145945.jpg",
+    "images": [
+      {
+        "src": "photos/Gda%C5%84sk%20%2B%20Malbork%205-8.10.2024/20241005_145945.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Gda%C5%84sk%20%2B%20Malbork%205-8.10.2024/20241005_160813.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Gda%C5%84sk%20%2B%20Malbork%205-8.10.2024/20241005_161358.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Gda%C5%84sk%20%2B%20Malbork%205-8.10.2024/20241005_161705.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Gda%C5%84sk%20%2B%20Malbork%205-8.10.2024/20241005_162607.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Gda%C5%84sk%20%2B%20Malbork%205-8.10.2024/20241006_123134.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Gda%C5%84sk%20%2B%20Malbork%205-8.10.2024/20241006_123149.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Gda%C5%84sk%20%2B%20Malbork%205-8.10.2024/20241006_124602.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Gda%C5%84sk%20%2B%20Malbork%205-8.10.2024/20241006_151946.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Gda%C5%84sk%20%2B%20Malbork%205-8.10.2024/20241006_162603.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Gda%C5%84sk%20%2B%20Malbork%205-8.10.2024/20241006_173313.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Gda%C5%84sk%20%2B%20Malbork%205-8.10.2024/20241006_174044.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Gda%C5%84sk%20%2B%20Malbork%205-8.10.2024/20241006_180054.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Gda%C5%84sk%20%2B%20Malbork%205-8.10.2024/20241006_180300.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Gda%C5%84sk%20%2B%20Malbork%205-8.10.2024/20241006_181409.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Gda%C5%84sk%20%2B%20Malbork%205-8.10.2024/20241006_181846.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Gda%C5%84sk%20%2B%20Malbork%205-8.10.2024/20241007_124835.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Gda%C5%84sk%20%2B%20Malbork%205-8.10.2024/20241007_133359.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Gda%C5%84sk%20%2B%20Malbork%205-8.10.2024/20241007_143824.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Gda%C5%84sk%20%2B%20Malbork%205-8.10.2024/20241007_144024.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Gda%C5%84sk%20%2B%20Malbork%205-8.10.2024/20241007_144053.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Gda%C5%84sk%20%2B%20Malbork%205-8.10.2024/20241007_150815.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Gda%C5%84sk%20%2B%20Malbork%205-8.10.2024/20241007_155335.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Gda%C5%84sk%20%2B%20Malbork%205-8.10.2024/20241007_172805.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Gda%C5%84sk%20%2B%20Malbork%205-8.10.2024/20241007_173350.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Gda%C5%84sk%20%2B%20Malbork%205-8.10.2024/20241007_181253.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Gda%C5%84sk%20%2B%20Malbork%205-8.10.2024/20241008_102837.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Gda%C5%84sk%20%2B%20Malbork%205-8.10.2024/20241008_124403.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Gda%C5%84sk%20%2B%20Malbork%205-8.10.2024/20241008_125212.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Gda%C5%84sk%20%2B%20Malbork%205-8.10.2024/20241008_125706.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Gda%C5%84sk%20%2B%20Malbork%205-8.10.2024/20241008_130940.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Gda%C5%84sk%20%2B%20Malbork%205-8.10.2024/original_c8d30bb8-b2f4-41a7-9944-355e66943113_20241007_155349.jpg",
+        "date": null,
+        "description": ""
+      }
+    ]
+  },
+  {
+    "name": "Kraków, festiwal Rockowizna",
+    "year": 2024,
+    "date": "2024-08-31",
+    "folder": "photos/Krak%C3%B3w%2C%20festiwal%20Rockowizna%2030-31.08.2024",
+    "thumbnail": "photos/Krak%C3%B3w%2C%20festiwal%20Rockowizna%2030-31.08.2024/20240830_120819.jpg",
+    "images": [
+      {
+        "src": "photos/Krak%C3%B3w%2C%20festiwal%20Rockowizna%2030-31.08.2024/20240830_120819.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Krak%C3%B3w%2C%20festiwal%20Rockowizna%2030-31.08.2024/20240830_202422.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Krak%C3%B3w%2C%20festiwal%20Rockowizna%2030-31.08.2024/20240830_205551.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Krak%C3%B3w%2C%20festiwal%20Rockowizna%2030-31.08.2024/20240830_210219.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Krak%C3%B3w%2C%20festiwal%20Rockowizna%2030-31.08.2024/20240831_115223.jpg",
+        "date": null,
+        "description": ""
+      }
+    ]
+  },
+  {
+    "name": "Wesele Kuby i Marty",
+    "year": 2024,
+    "date": "2024-07-27",
+    "folder": "photos/Wesele%20Kuby%20i%20Marty%2027.07.2024",
+    "thumbnail": "photos/Wesele%20Kuby%20i%20Marty%2027.07.2024/20240727_162339.jpg",
+    "images": [
+      {
+        "src": "photos/Wesele%20Kuby%20i%20Marty%2027.07.2024/20240727_162339.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Wesele%20Kuby%20i%20Marty%2027.07.2024/20240727_170923.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Wesele%20Kuby%20i%20Marty%2027.07.2024/20240727_173635.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Wesele%20Kuby%20i%20Marty%2027.07.2024/20240727_224749.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Wesele%20Kuby%20i%20Marty%2027.07.2024/original_033be494-9892-49f9-8d14-a4677a595e3d_Screenshot_20240729_081021_Instagram.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Wesele%20Kuby%20i%20Marty%2027.07.2024/original_308bafab-05e6-4376-8a74-f8d4e7dbd484_Screenshot_20240729_081016_Instagram.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Wesele%20Kuby%20i%20Marty%2027.07.2024/original_d6389f35-a215-4080-bb08-dbe377380a89_Screenshot_20240729_081006_Instagram.jpg",
+        "date": null,
+        "description": ""
+      }
+    ]
+  },
+  {
+    "name": "Ogrodzeniec",
+    "year": 2024,
+    "date": "2024-04-14",
+    "folder": "photos/Ogrodzeniec%2014.04.2024",
+    "thumbnail": "photos/Ogrodzeniec%2014.04.2024/20240414_095328.jpg",
+    "images": [
+      {
+        "src": "photos/Ogrodzeniec%2014.04.2024/20240414_095328.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Ogrodzeniec%2014.04.2024/20240414_095337.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Ogrodzeniec%2014.04.2024/20240414_095425.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Ogrodzeniec%2014.04.2024/20240414_102413.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Ogrodzeniec%2014.04.2024/20240414_140006.jpg",
+        "date": null,
+        "description": ""
+      }
+    ]
+  },
+  {
+    "name": "Boże Narodzenie",
+    "year": 2023,
+    "date": "2023-12-31",
+    "folder": "photos/Bo%C5%BCe%20Narodzenie%202023",
+    "thumbnail": "photos/Bo%C5%BCe%20Narodzenie%202023/20231222_212938.jpg",
+    "images": [
+      {
+        "src": "photos/Bo%C5%BCe%20Narodzenie%202023/20231222_212938.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Bo%C5%BCe%20Narodzenie%202023/20231224_161059.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Bo%C5%BCe%20Narodzenie%202023/20231224_161116.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Bo%C5%BCe%20Narodzenie%202023/20231224_192636.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Bo%C5%BCe%20Narodzenie%202023/20231224_215530.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Bo%C5%BCe%20Narodzenie%202023/20231226_111309.jpg",
+        "date": null,
+        "description": ""
+      }
+    ]
+  },
+  {
+    "name": "Wesele Kasi i Grześka + weekend w górach",
+    "year": 2023,
+    "date": "2023-12-10",
+    "folder": "photos/Wesele%20Kasi%20i%20Grze%C5%9Bka%20%2B%20weekend%20w%20g%C3%B3rach%207-10.12.2023",
+    "thumbnail": "photos/Wesele%20Kasi%20i%20Grze%C5%9Bka%20%2B%20weekend%20w%20g%C3%B3rach%207-10.12.2023/20231207_221609.jpg",
+    "images": [
+      {
+        "src": "photos/Wesele%20Kasi%20i%20Grze%C5%9Bka%20%2B%20weekend%20w%20g%C3%B3rach%207-10.12.2023/20231207_221609.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Wesele%20Kasi%20i%20Grze%C5%9Bka%20%2B%20weekend%20w%20g%C3%B3rach%207-10.12.2023/20231207_221734.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Wesele%20Kasi%20i%20Grze%C5%9Bka%20%2B%20weekend%20w%20g%C3%B3rach%207-10.12.2023/20231208_005128.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Wesele%20Kasi%20i%20Grze%C5%9Bka%20%2B%20weekend%20w%20g%C3%B3rach%207-10.12.2023/20231208_105124.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Wesele%20Kasi%20i%20Grze%C5%9Bka%20%2B%20weekend%20w%20g%C3%B3rach%207-10.12.2023/20231208_112952.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Wesele%20Kasi%20i%20Grze%C5%9Bka%20%2B%20weekend%20w%20g%C3%B3rach%207-10.12.2023/20231208_122834.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Wesele%20Kasi%20i%20Grze%C5%9Bka%20%2B%20weekend%20w%20g%C3%B3rach%207-10.12.2023/20231208_204605.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Wesele%20Kasi%20i%20Grze%C5%9Bka%20%2B%20weekend%20w%20g%C3%B3rach%207-10.12.2023/20231208_205348.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Wesele%20Kasi%20i%20Grze%C5%9Bka%20%2B%20weekend%20w%20g%C3%B3rach%207-10.12.2023/20231209_085509.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Wesele%20Kasi%20i%20Grze%C5%9Bka%20%2B%20weekend%20w%20g%C3%B3rach%207-10.12.2023/20231209_130133.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Wesele%20Kasi%20i%20Grze%C5%9Bka%20%2B%20weekend%20w%20g%C3%B3rach%207-10.12.2023/20231209_182357.jpg",
+        "date": null,
+        "description": ""
+      }
+    ]
+  },
+  {
+    "name": "Rowy",
+    "year": 2023,
+    "date": "2023-10-08",
+    "folder": "photos/Rowy%202-8.10.2023",
+    "thumbnail": "photos/Rowy%202-8.10.2023/20231002_143425.jpg",
+    "images": [
+      {
+        "src": "photos/Rowy%202-8.10.2023/20231002_143425.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Rowy%202-8.10.2023/20231002_145235.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Rowy%202-8.10.2023/20231003_134805.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Rowy%202-8.10.2023/20231004_140525.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Rowy%202-8.10.2023/20231004_141228.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Rowy%202-8.10.2023/20231005_153144.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Rowy%202-8.10.2023/20231005_153418.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Rowy%202-8.10.2023/20231005_164350.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Rowy%202-8.10.2023/20231005_183256.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Rowy%202-8.10.2023/20231006_145204.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Rowy%202-8.10.2023/20231007_130417.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Rowy%202-8.10.2023/20231007_135120.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Rowy%202-8.10.2023/20231007_145630.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Rowy%202-8.10.2023/PXL_20231003_125439387.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Rowy%202-8.10.2023/PXL_20231007_111849021.MP.jpg",
+        "date": null,
+        "description": ""
+      }
+    ]
+  },
+  {
+    "name": "Opole",
+    "year": 2023,
+    "date": "2023-07-09",
+    "folder": "photos/Opole%209.07.2023",
+    "thumbnail": "photos/Opole%209.07.2023/20230709_132153.jpg",
+    "images": [
+      {
+        "src": "photos/Opole%209.07.2023/20230709_132153.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Opole%209.07.2023/20230709_133603.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Opole%209.07.2023/PXL_20230709_064929162.MP.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Opole%209.07.2023/PXL_20230709_072903473.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Opole%209.07.2023/PXL_20230709_153259016.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Opole%209.07.2023/PXL_20230709_172612557.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Opole%209.07.2023/PXL_20230709_175045418.jpg",
+        "date": null,
+        "description": ""
+      }
+    ]
+  },
+  {
+    "name": "Gdynia 2023",
+    "year": 2023,
+    "date": "2023-04-30",
+    "folder": "photos/Gdynia%202023%2027-30.04.2023",
+    "thumbnail": "photos/Gdynia%202023%2027-30.04.2023/PXL_20230427_123943060.jpg",
+    "images": [
+      {
+        "src": "photos/Gdynia%202023%2027-30.04.2023/PXL_20230427_123943060.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Gdynia%202023%2027-30.04.2023/PXL_20230427_161833827.MP.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Gdynia%202023%2027-30.04.2023/PXL_20230429_124403413.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Gdynia%202023%2027-30.04.2023/PXL_20230429_144811027.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Gdynia%202023%2027-30.04.2023/PXL_20230429_154344443.jpg",
+        "date": null,
+        "description": ""
+      }
+    ]
+  },
+  {
+    "name": "Włochy 2023 (Como, Milano, Genova, Bergamo)",
+    "year": 2023,
+    "date": "2023-04-27",
+    "folder": "photos/W%C5%82ochy%202023%20(Como%2C%20Milano%2C%20Genova%2C%20Bergamo)%2021-27.04.2023",
+    "thumbnail": "photos/W%C5%82ochy%202023%20(Como%2C%20Milano%2C%20Genova%2C%20Bergamo)%2021-27.04.2023/PXL_20230422_082455490.jpg",
+    "images": [
+      {
+        "src": "photos/W%C5%82ochy%202023%20(Como%2C%20Milano%2C%20Genova%2C%20Bergamo)%2021-27.04.2023/PXL_20230422_082455490.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/W%C5%82ochy%202023%20(Como%2C%20Milano%2C%20Genova%2C%20Bergamo)%2021-27.04.2023/PXL_20230422_093653426.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/W%C5%82ochy%202023%20(Como%2C%20Milano%2C%20Genova%2C%20Bergamo)%2021-27.04.2023/PXL_20230422_093705680.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/W%C5%82ochy%202023%20(Como%2C%20Milano%2C%20Genova%2C%20Bergamo)%2021-27.04.2023/PXL_20230422_115006153.MP.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/W%C5%82ochy%202023%20(Como%2C%20Milano%2C%20Genova%2C%20Bergamo)%2021-27.04.2023/PXL_20230422_115017453.MP.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/W%C5%82ochy%202023%20(Como%2C%20Milano%2C%20Genova%2C%20Bergamo)%2021-27.04.2023/PXL_20230422_122247958.MP.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/W%C5%82ochy%202023%20(Como%2C%20Milano%2C%20Genova%2C%20Bergamo)%2021-27.04.2023/PXL_20230422_132005847.MP.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/W%C5%82ochy%202023%20(Como%2C%20Milano%2C%20Genova%2C%20Bergamo)%2021-27.04.2023/PXL_20230422_133339422.MP.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/W%C5%82ochy%202023%20(Como%2C%20Milano%2C%20Genova%2C%20Bergamo)%2021-27.04.2023/PXL_20230422_133421185.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/W%C5%82ochy%202023%20(Como%2C%20Milano%2C%20Genova%2C%20Bergamo)%2021-27.04.2023/PXL_20230422_145038524.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/W%C5%82ochy%202023%20(Como%2C%20Milano%2C%20Genova%2C%20Bergamo)%2021-27.04.2023/PXL_20230423_061641451.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/W%C5%82ochy%202023%20(Como%2C%20Milano%2C%20Genova%2C%20Bergamo)%2021-27.04.2023/PXL_20230423_102210545.MP.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/W%C5%82ochy%202023%20(Como%2C%20Milano%2C%20Genova%2C%20Bergamo)%2021-27.04.2023/PXL_20230423_104407572.MP.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/W%C5%82ochy%202023%20(Como%2C%20Milano%2C%20Genova%2C%20Bergamo)%2021-27.04.2023/PXL_20230423_111421698.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/W%C5%82ochy%202023%20(Como%2C%20Milano%2C%20Genova%2C%20Bergamo)%2021-27.04.2023/PXL_20230423_113540858.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/W%C5%82ochy%202023%20(Como%2C%20Milano%2C%20Genova%2C%20Bergamo)%2021-27.04.2023/PXL_20230424_083511128.MP.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/W%C5%82ochy%202023%20(Como%2C%20Milano%2C%20Genova%2C%20Bergamo)%2021-27.04.2023/PXL_20230424_083654214.MP.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/W%C5%82ochy%202023%20(Como%2C%20Milano%2C%20Genova%2C%20Bergamo)%2021-27.04.2023/PXL_20230424_084439685.MP.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/W%C5%82ochy%202023%20(Como%2C%20Milano%2C%20Genova%2C%20Bergamo)%2021-27.04.2023/PXL_20230424_084641801.MP.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/W%C5%82ochy%202023%20(Como%2C%20Milano%2C%20Genova%2C%20Bergamo)%2021-27.04.2023/PXL_20230424_084657931.MP.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/W%C5%82ochy%202023%20(Como%2C%20Milano%2C%20Genova%2C%20Bergamo)%2021-27.04.2023/PXL_20230424_092202764.MP.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/W%C5%82ochy%202023%20(Como%2C%20Milano%2C%20Genova%2C%20Bergamo)%2021-27.04.2023/PXL_20230424_102146474.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/W%C5%82ochy%202023%20(Como%2C%20Milano%2C%20Genova%2C%20Bergamo)%2021-27.04.2023/PXL_20230424_105830061.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/W%C5%82ochy%202023%20(Como%2C%20Milano%2C%20Genova%2C%20Bergamo)%2021-27.04.2023/PXL_20230424_111531166.MP.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/W%C5%82ochy%202023%20(Como%2C%20Milano%2C%20Genova%2C%20Bergamo)%2021-27.04.2023/PXL_20230424_112022327.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/W%C5%82ochy%202023%20(Como%2C%20Milano%2C%20Genova%2C%20Bergamo)%2021-27.04.2023/PXL_20230424_112029387.MP.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/W%C5%82ochy%202023%20(Como%2C%20Milano%2C%20Genova%2C%20Bergamo)%2021-27.04.2023/PXL_20230424_120401541.MP.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/W%C5%82ochy%202023%20(Como%2C%20Milano%2C%20Genova%2C%20Bergamo)%2021-27.04.2023/PXL_20230424_120411964.MP.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/W%C5%82ochy%202023%20(Como%2C%20Milano%2C%20Genova%2C%20Bergamo)%2021-27.04.2023/PXL_20230425_100736165.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/W%C5%82ochy%202023%20(Como%2C%20Milano%2C%20Genova%2C%20Bergamo)%2021-27.04.2023/PXL_20230425_110424002.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/W%C5%82ochy%202023%20(Como%2C%20Milano%2C%20Genova%2C%20Bergamo)%2021-27.04.2023/PXL_20230425_115943328.MP.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/W%C5%82ochy%202023%20(Como%2C%20Milano%2C%20Genova%2C%20Bergamo)%2021-27.04.2023/PXL_20230425_123638236.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/W%C5%82ochy%202023%20(Como%2C%20Milano%2C%20Genova%2C%20Bergamo)%2021-27.04.2023/PXL_20230425_123703795.MP.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/W%C5%82ochy%202023%20(Como%2C%20Milano%2C%20Genova%2C%20Bergamo)%2021-27.04.2023/PXL_20230425_124310065.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/W%C5%82ochy%202023%20(Como%2C%20Milano%2C%20Genova%2C%20Bergamo)%2021-27.04.2023/PXL_20230425_171958891.MP.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/W%C5%82ochy%202023%20(Como%2C%20Milano%2C%20Genova%2C%20Bergamo)%2021-27.04.2023/PXL_20230425_172232488.MP.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/W%C5%82ochy%202023%20(Como%2C%20Milano%2C%20Genova%2C%20Bergamo)%2021-27.04.2023/PXL_20230425_185342712.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/W%C5%82ochy%202023%20(Como%2C%20Milano%2C%20Genova%2C%20Bergamo)%2021-27.04.2023/PXL_20230426_080203015.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/W%C5%82ochy%202023%20(Como%2C%20Milano%2C%20Genova%2C%20Bergamo)%2021-27.04.2023/PXL_20230426_082732745.MP.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/W%C5%82ochy%202023%20(Como%2C%20Milano%2C%20Genova%2C%20Bergamo)%2021-27.04.2023/PXL_20230426_084314417.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/W%C5%82ochy%202023%20(Como%2C%20Milano%2C%20Genova%2C%20Bergamo)%2021-27.04.2023/PXL_20230426_131536963.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/W%C5%82ochy%202023%20(Como%2C%20Milano%2C%20Genova%2C%20Bergamo)%2021-27.04.2023/PXL_20230426_141147192.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/W%C5%82ochy%202023%20(Como%2C%20Milano%2C%20Genova%2C%20Bergamo)%2021-27.04.2023/PXL_20230426_143434761.MP.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/W%C5%82ochy%202023%20(Como%2C%20Milano%2C%20Genova%2C%20Bergamo)%2021-27.04.2023/PXL_20230426_161824912.MP.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/W%C5%82ochy%202023%20(Como%2C%20Milano%2C%20Genova%2C%20Bergamo)%2021-27.04.2023/PXL_20230426_164227316.MP.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/W%C5%82ochy%202023%20(Como%2C%20Milano%2C%20Genova%2C%20Bergamo)%2021-27.04.2023/PXL_20230427_072904509.jpg",
+        "date": null,
+        "description": ""
+      }
+    ]
+  },
+  {
+    "name": "Ferie zimowe 2023",
+    "year": 2023,
+    "date": "2023-02-24",
+    "folder": "photos/Ferie%20zimowe%202023%2023-24.02.2023",
+    "thumbnail": "photos/Ferie%20zimowe%202023%2023-24.02.2023/PXL_20230223_163958439.NIGHT.jpg",
+    "images": [
+      {
+        "src": "photos/Ferie%20zimowe%202023%2023-24.02.2023/PXL_20230223_163958439.NIGHT.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Ferie%20zimowe%202023%2023-24.02.2023/PXL_20230223_171139732.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Ferie%20zimowe%202023%2023-24.02.2023/PXL_20230224_140309888.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Ferie%20zimowe%202023%2023-24.02.2023/PXL_20230224_141314400.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Ferie%20zimowe%202023%2023-24.02.2023/PXL_20230224_141441102.jpg",
+        "date": null,
+        "description": ""
       }
     ]
   },
@@ -146,6 +1416,30 @@
         "src": "photos/Hradec%20nad%20Moravici%2C%2001.05.2022/PXL_20220501_123715645.MP.jpg",
         "date": "01.05.2022",
         "description": "Stătni zămek Hradec nad Moravici"
+      }
+    ]
+  },
+  {
+    "name": "Ferie 2022",
+    "year": 2022,
+    "date": "2022-02-06",
+    "folder": "photos/Ferie%202022%2006.02.2022",
+    "thumbnail": "photos/Ferie%202022%2006.02.2022/PXL_20220206_111519839.jpg",
+    "images": [
+      {
+        "src": "photos/Ferie%202022%2006.02.2022/PXL_20220206_111519839.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Ferie%202022%2006.02.2022/PXL_20220206_151000493.jpg",
+        "date": null,
+        "description": ""
+      },
+      {
+        "src": "photos/Ferie%202022%2006.02.2022/PXL_20220206_160057701.MP.jpg",
+        "date": null,
+        "description": ""
       }
     ]
   },
